@@ -3,7 +3,7 @@ function setup() {
   game = new Game();
 }
 
-function mousePressed() {
+function mouseReleased() {
   game.move(mouseX);
 }
 
