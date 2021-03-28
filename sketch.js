@@ -121,7 +121,7 @@ class BoardDrawer {
     rectMode(CENTER);
     let centX = windowWidth / 2 - 3 * this.r * this.spaceFactor + 3 * this.r * this.spaceFactor;
     let centY = windowHeight / 2 - 2.5 * this.r * this.spaceFactor + 3 * this.r * this.spaceFactor;
-    rect(centX, centY, this.r * 8, this.r * 7);
+    rect(centX, centY, this.r * 8, this.r * 7, 10);
     pop();
     for (let i = 0; i < this.board.length; i++) {
       let y = windowHeight / 2 - i * this.r * this.spaceFactor + 3 * this.r * this.spaceFactor;
